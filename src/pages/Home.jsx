@@ -8,19 +8,19 @@ function Home() {
   return (
     <div>
       <img src={beersImage} />
-      <Link to="../pages/beers">
+      <Link to="/beers">
         <h1>All beers</h1>
       </Link>
       <p>Lorem ipsum</p>
       <img src={randomBeerImage} />
-      <Link to="../pages/random-beer">
+      <Link to="/random-beer">
         {" "}
         <h1>Random Beer</h1>
       </Link>
       <p>Lorem ipsum</p>
 
       <img src={newBeerImage} />
-      <Link to="../pages/new-beer">
+      <Link to="/new-beer">
         {" "}
         <h1>New Beer</h1>
       </Link>
