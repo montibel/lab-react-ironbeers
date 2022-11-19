@@ -25,10 +25,7 @@ function AllBeers() {
           <h3>{beer.name}</h3>
           <h3>{beer.tagline}</h3>
           <p>Created by: {beer.contributed_by}</p>
-          <Link to="/beers/:beerId">
-            {" "}
-            <h1>Details</h1>
-          </Link>
+          <Link to={`/single-beer/${beer._id}`}>Details</Link>
         </div>
       ))}
     </div>
